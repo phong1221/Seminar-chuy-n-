@@ -1,0 +1,34 @@
+[
+  {
+    "model_name": "Transformer_d64_ff128",
+    "train_accuracy": 0.9905,
+    "val_accuracy": 0.9556,
+    "test_accuracy": 0.9778,
+    "final_train_loss": 0.039,
+    "best_model_path": "results\\model_Transformer_d64_ff128.pt"
+  },
+  {
+    "model_name": "Transformer_d128_ff256",
+    "train_accuracy": 0.9976,
+    "val_accuracy": 0.9667,
+    "test_accuracy": 0.9778,
+    "final_train_loss": 0.0091,
+    "best_model_path": "results\\model_Transformer_d128_ff256.pt"
+  },
+  {
+    "model_name": "Transformer_d32_ff64",
+    "train_accuracy": 0.9167,
+    "val_accuracy": 0.8889,
+    "test_accuracy": 0.8444,
+    "final_train_loss": 0.1915,
+    "best_model_path": "results\\model_Transformer_d32_ff64.pt"
+  },
+  {
+    "model_name": "MLPBaseline_d64",
+    "train_accuracy": 0.8762,
+    "val_accuracy": 0.7667,
+    "test_accuracy": 0.8111,
+    "final_train_loss": 0.5321,
+    "best_model_path": "results\\model_MLPBaseline_d64.pt"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "max_len": 20,
+  "vocab_size": 101,
+  "pad_id": 0,
+  "unk_id": 1,
+  "num_classes": 3,
+  "label_names": [
+    "negative",
+    "neutral",
+    "positive"
+  ]
+}

@@ -1,0 +1,601 @@
+id,split,text,label,label_name,num_tokens
+1,test,we discussed the movie in class at home,1,neutral,8
+2,test,this movie is truly poor at home,0,negative,7
+3,train,the soundtrack sounds boring for us,0,negative,6
+4,train,overall it feels surprisingly annoying today,0,negative,6
+5,test,the soundtrack is available online today,1,neutral,6
+6,train,the film was truly forgettable tonight,0,negative,6
+7,test,the film was remarkably fun now,2,positive,6
+8,train,this was a poor watch now,0,negative,6
+9,test,this was a bad watch,0,negative,5
+10,train,that scene was annoying for me,0,negative,6
+11,train,the ending feels really fantastic,2,positive,5
+12,train,this opening is on tv tonight,1,neutral,6
+13,test,this movie is quite poor today,0,negative,6
+14,train,this was a messy watch tonight,0,negative,6
+15,train,the film is available online for us,1,neutral,7
+16,train,this movie is quite great now,2,positive,6
+17,train,overall it feels quite poor for me,0,negative,7
+18,test,the ending feels surprisingly excellent for us,2,positive,7
+19,train,this movie is really awful today,0,negative,6
+20,train,they scheduled the scene for friday today,1,neutral,7
+21,train,the film was absolutely bad now,0,negative,6
+22,val,that soundtrack has two main actors,1,neutral,6
+23,train,this was a messy watch at home,0,negative,7
+24,test,that scene was messy today,0,negative,5
+25,train,the ending feels clearly painful lately,0,negative,6
+26,val,overall it feels very excellent now,2,positive,6
+27,train,this movie is on tv tonight today,1,neutral,7
+28,val,that soundtrack has two main actors this week,1,neutral,8
+29,train,the ending feels truly excellent,2,positive,5
+30,val,they scheduled the film for friday,1,neutral,6
+31,train,the film was absolutely wonderful this week,2,positive,7
+32,test,they scheduled the movie for friday this week,1,neutral,8
+33,train,overall it feels very excellent at home,2,positive,7
+34,train,the scene is available online now,1,neutral,6
+35,train,the film was very brilliant right now,2,positive,7
+36,train,i found this story lovely right now,2,positive,7
+37,train,our teacher mentioned the opening today,1,neutral,6
+38,train,overall it feels surprisingly brilliant this week,2,positive,7
+39,train,the performance runs for ninety minutes,1,neutral,6
+40,val,that scene was enjoyable at home,2,positive,6
+41,val,the scene runs for ninety minutes for us,1,neutral,8
+42,train,the soundtrack runs for ninety minutes at home,1,neutral,8
+43,train,the dialogue is available online now,1,neutral,6
+44,val,i think the plot is annoying this week,0,negative,8
+45,train,this soundtrack is on tv tonight now,1,neutral,7
+46,train,the film was clearly terrible today,0,negative,6
+47,train,the film was really dreadful today,0,negative,6
+48,test,this was a great watch,2,positive,5
+49,test,overall it feels clearly bad for us,0,negative,7
+50,val,i found this story wonderful for me,2,positive,7
+51,train,the acting is quite dreadful this week,0,negative,7
+52,train,i watched the soundtrack yesterday this week,1,neutral,7
+53,train,the film was very forgettable,0,negative,5
+54,train,the performance appears in the catalog,1,neutral,6
+55,train,i found this story wonderful tonight,2,positive,6
+56,train,the soundtrack sounds dreadful this week,0,negative,6
+57,train,i found this story fantastic lately,2,positive,6
+58,train,that movie has two main actors at home,1,neutral,8
+59,train,the acting is quite amazing at home,2,positive,7
+60,train,the ending feels absolutely annoying,0,negative,5
+61,train,they scheduled the scene for friday,1,neutral,6
+62,test,this story is on tv tonight now,1,neutral,7
+63,test,this scene has a simple title,1,neutral,6
+64,train,the soundtrack sounds heartwarming today,2,positive,5
+65,train,i found this story amazing now,2,positive,6
+66,train,that scene was fantastic at home,2,positive,6
+67,train,the soundtrack sounds fantastic now,2,positive,5
+68,train,overall it feels truly bad,0,negative,5
+69,train,the acting is clearly poor for me,0,negative,7
+70,train,they scheduled the opening for friday today,1,neutral,7
+71,train,the ending feels truly terrible lately,0,negative,6
+72,train,the acting is very heartwarming,2,positive,5
+73,val,they scheduled the ending for friday at home,1,neutral,8
+74,test,this was a terrible watch tonight,0,negative,6
+75,train,the story starts after dinner now,1,neutral,6
+76,val,this performance is on tv tonight today,1,neutral,7
+77,train,the ending feels pretty fun at home,2,positive,7
+78,train,the opening runs for ninety minutes at home,1,neutral,8
+79,train,the ending is available online at home,1,neutral,7
+80,test,this movie is absolutely brilliant,2,positive,5
+81,train,this movie is surprisingly excellent for me,2,positive,7
+82,train,overall it feels pretty heartwarming lately,2,positive,6
+83,train,the ending feels truly forgettable right now,0,negative,7
+84,train,this movie is very poor at home,0,negative,7
+85,val,the ending includes three scenes this week,1,neutral,7
+86,train,this was a bad watch at home,0,negative,7
+87,val,the film was mostly great now,2,positive,6
+88,test,that scene was messy for us,0,negative,6
+89,val,the movie appears in the catalog now,1,neutral,7
+90,test,our teacher mentioned the soundtrack today right now,1,neutral,8
+91,val,the ending feels quite boring at home,0,negative,7
+92,val,this performance has a simple title today,1,neutral,7
+93,val,that scene was brilliant tonight,2,positive,5
+94,train,this was a fun watch,2,positive,5
+95,val,i found this story awful for us,0,negative,7
+96,train,the opening includes three scenes now,1,neutral,6
+97,train,the film is available online,1,neutral,5
+98,train,the scene starts after dinner,1,neutral,5
+99,train,i think the plot is lovely now,2,positive,7
+100,train,the acting is truly heartwarming for us,2,positive,7
+101,train,the movie runs for ninety minutes for us,1,neutral,8
+102,train,our teacher mentioned the movie today this week,1,neutral,8
+103,test,the soundtrack sounds dreadful for me,0,negative,6
+104,train,they scheduled the ending for friday for us,1,neutral,8
+105,train,i watched the story yesterday,1,neutral,5
+106,test,that scene was fantastic,2,positive,4
+107,train,the dialogue includes three scenes now,1,neutral,6
+108,train,the movie appears in the catalog this week,1,neutral,8
+109,train,the movie appears in the catalog today,1,neutral,7
+110,train,the film runs for ninety minutes,1,neutral,6
+111,train,the acting is surprisingly boring for me,0,negative,7
+112,train,we discussed the film in class,1,neutral,6
+113,train,the soundtrack sounds lovely tonight,2,positive,5
+114,train,the ending feels very painful for me,0,negative,7
+115,val,i think the plot is fantastic for us,2,positive,8
+116,train,i watched the plot yesterday,1,neutral,5
+117,val,this movie is pretty awful,0,negative,5
+118,train,the performance starts after dinner this week,1,neutral,7
+119,test,the acting is quite heartwarming for me,2,positive,7
+120,train,we discussed the story in class today,1,neutral,7
+121,val,i found this story fantastic at home,2,positive,7
+122,val,the acting is remarkably annoying this week,0,negative,7
+123,train,the film was really forgettable,0,negative,5
+124,test,the film was remarkably messy for me,0,negative,7
+125,train,the acting is absolutely forgettable,0,negative,5
+126,train,i found this story brilliant tonight,2,positive,6
+127,train,the ending appears in the catalog today,1,neutral,7
+128,train,we discussed the performance in class now,1,neutral,7
+129,train,this plot has a simple title,1,neutral,6
+130,train,i think the plot is messy today,0,negative,7
+131,train,the ending feels mostly messy at home,0,negative,7
+132,test,the ending feels pretty painful at home,0,negative,7
+133,test,the soundtrack sounds excellent tonight,2,positive,5
+134,train,the acting is quite excellent,2,positive,5
+135,val,i found this story fun lately,2,positive,6
+136,train,our teacher mentioned the film today this week,1,neutral,8
+137,train,the ending feels truly annoying at home,0,negative,7
+138,train,i watched the performance yesterday for us,1,neutral,7
+139,test,i found this story poor tonight,0,negative,6
+140,train,overall it feels mostly lovely this week,2,positive,7
+141,train,the soundtrack sounds poor,0,negative,4
+142,train,this was a painful watch lately,0,negative,6
+143,train,the soundtrack sounds heartwarming now,2,positive,5
+144,test,they scheduled the soundtrack for friday for us,1,neutral,8
+145,val,the plot starts after dinner,1,neutral,5
+146,val,overall it feels remarkably poor lately,0,negative,6
+147,train,the acting is remarkably wonderful for us,2,positive,7
+148,train,they scheduled the opening for friday for us,1,neutral,8
+149,train,i think the plot is awful,0,negative,6
+150,train,this movie is really wonderful lately,2,positive,6
+151,train,the film was quite poor at home,0,negative,7
+152,train,the soundtrack sounds heartwarming right now,2,positive,6
+153,train,that scene was terrible today,0,negative,5
+154,train,the ending feels remarkably messy now,0,negative,6
+155,train,the film was pretty messy now,0,negative,6
+156,test,overall it feels really excellent,2,positive,5
+157,test,that scene was brilliant at home,2,positive,6
+158,train,the story includes three scenes now,1,neutral,6
+159,train,i think the plot is brilliant tonight,2,positive,7
+160,test,i found this story annoying right now,0,negative,7
+161,train,the soundtrack is available online for us,1,neutral,7
+162,test,this was a amazing watch this week,2,positive,7
+163,train,i watched the ending yesterday,1,neutral,5
+164,test,i found this story dreadful this week,0,negative,7
+165,train,the acting is quite boring today,0,negative,6
+166,test,our teacher mentioned the opening today this week,1,neutral,8
+167,train,i found this story poor lately,0,negative,6
+168,val,the acting is surprisingly enjoyable,2,positive,5
+169,test,this plot is on tv tonight now,1,neutral,7
+170,train,the opening includes three scenes,1,neutral,5
+171,train,i think the plot is enjoyable,2,positive,6
+172,train,the acting is really bad tonight,0,negative,6
+173,test,the scene starts after dinner at home,1,neutral,7
+174,train,this movie is very poor,0,negative,5
+175,train,that scene was forgettable,0,negative,4
+176,train,the opening is available online,1,neutral,5
+177,train,the acting is very painful today,0,negative,6
+178,train,i think the plot is lovely tonight,2,positive,7
+179,val,i found this story excellent now,2,positive,6
+180,train,the soundtrack sounds excellent,2,positive,4
+181,train,the performance runs for ninety minutes today,1,neutral,7
+182,train,the ending feels very awful for me,0,negative,7
+183,train,this movie is remarkably great for us,2,positive,7
+184,val,the movie starts after dinner this week,1,neutral,7
+185,train,we discussed the performance in class for us,1,neutral,8
+186,train,that scene was annoying for us,0,negative,6
+187,train,i found this story heartwarming right now,2,positive,7
+188,train,the acting is pretty painful for us,0,negative,7
+189,test,this was a excellent watch this week,2,positive,7
+190,train,that scene was amazing tonight,2,positive,5
+191,train,this movie is mostly forgettable,0,negative,5
+192,test,i found this story poor for me,0,negative,7
+193,train,the acting is quite forgettable for me,0,negative,7
+194,train,the movie is available online today,1,neutral,6
+195,train,that scene was terrible tonight,0,negative,5
+196,val,the soundtrack sounds wonderful,2,positive,4
+197,train,the ending feels truly boring,0,negative,5
+198,train,this movie is remarkably great tonight,2,positive,6
+199,val,the opening appears in the catalog for us,1,neutral,8
+200,val,i think the plot is terrible at home,0,negative,8
+201,train,the film was very lovely today,2,positive,6
+202,val,they scheduled the ending for friday,1,neutral,6
+203,val,overall it feels remarkably messy lately,0,negative,6
+204,train,overall it feels truly fantastic tonight,2,positive,6
+205,val,the film was mostly wonderful lately,2,positive,6
+206,train,the acting is very brilliant,2,positive,5
+207,train,the film was surprisingly fantastic,2,positive,5
+208,train,i think the plot is wonderful,2,positive,6
+209,train,we discussed the story in class,1,neutral,6
+210,train,the ending feels really fun lately,2,positive,6
+211,train,the opening runs for ninety minutes today,1,neutral,7
+212,train,this plot has a simple title right now,1,neutral,8
+213,test,i watched the ending yesterday right now,1,neutral,7
+214,train,the movie includes three scenes for us,1,neutral,7
+215,train,the soundtrack sounds annoying for me,0,negative,6
+216,test,the acting is quite dreadful for us,0,negative,7
+217,val,this was a bad watch tonight,0,negative,6
+218,train,overall it feels remarkably annoying for us,0,negative,7
+219,train,the movie is available online right now,1,neutral,7
+220,train,this was a fun watch lately,2,positive,6
+221,test,the film was truly heartwarming for us,2,positive,7
+222,train,the acting is very dreadful,0,negative,5
+223,train,i think the plot is forgettable at home,0,negative,8
+224,train,the story appears in the catalog right now,1,neutral,8
+225,train,the film was remarkably annoying today,0,negative,6
+226,train,we discussed the story in class at home,1,neutral,8
+227,val,the ending feels very messy,0,negative,5
+228,train,that scene was great now,2,positive,5
+229,train,the performance is available online this week,1,neutral,7
+230,train,overall it feels absolutely amazing at home,2,positive,7
+231,train,the soundtrack is available online now,1,neutral,6
+232,train,the ending feels quite messy,0,negative,5
+233,train,they scheduled the dialogue for friday,1,neutral,6
+234,train,this movie is remarkably messy for me,0,negative,7
+235,train,the acting is mostly fantastic today,2,positive,6
+236,train,this scene is on tv tonight,1,neutral,6
+237,val,i found this story boring,0,negative,5
+238,train,this was a great watch right now,2,positive,7
+239,train,this movie is quite dreadful,0,negative,5
+240,val,this was a bad watch right now,0,negative,7
+241,train,this was a terrible watch today,0,negative,6
+242,train,the soundtrack sounds forgettable at home,0,negative,6
+243,train,that scene was wonderful now,2,positive,5
+244,test,the ending feels quite painful this week,0,negative,7
+245,train,i think the plot is fantastic,2,positive,6
+246,train,the acting is really messy today,0,negative,6
+247,train,they scheduled the performance for friday right now,1,neutral,8
+248,test,the film was pretty wonderful today,2,positive,6
+249,train,this performance is on tv tonight this week,1,neutral,8
+250,train,this movie is really excellent now,2,positive,6
+251,train,i found this story forgettable,0,negative,5
+252,train,the acting is mostly bad,0,negative,5
+253,train,i found this story bad lately,0,negative,6
+254,train,the dialogue includes three scenes,1,neutral,5
+255,train,this was a painful watch now,0,negative,6
+256,train,i think the plot is enjoyable at home,2,positive,8
+257,train,they scheduled the performance for friday,1,neutral,6
+258,train,i found this story heartwarming at home,2,positive,7
+259,val,this was a lovely watch lately,2,positive,6
+260,test,the soundtrack sounds excellent for me,2,positive,6
+261,val,this was a brilliant watch for us,2,positive,7
+262,train,i found this story forgettable lately,0,negative,6
+263,train,this film has a simple title now,1,neutral,7
+264,test,that ending has two main actors today,1,neutral,7
+265,train,the film was really wonderful right now,2,positive,7
+266,train,overall it feels clearly bad lately,0,negative,6
+267,train,this ending is on tv tonight this week,1,neutral,8
+268,train,i found this story excellent today,2,positive,6
+269,train,this movie is surprisingly amazing at home,2,positive,7
+270,train,the soundtrack sounds heartwarming lately,2,positive,5
+271,train,the film runs for ninety minutes today,1,neutral,7
+272,train,overall it feels absolutely excellent for me,2,positive,7
+273,val,our teacher mentioned the plot today at home,1,neutral,8
+274,train,the film was quite poor,0,negative,5
+275,train,i watched the opening yesterday for us,1,neutral,7
+276,train,the acting is quite forgettable today,0,negative,6
+277,train,they scheduled the film for friday at home,1,neutral,8
+278,val,the soundtrack appears in the catalog right now,1,neutral,8
+279,train,the ending feels quite dreadful for me,0,negative,7
+280,train,our teacher mentioned the dialogue today for us,1,neutral,8
+281,train,the ending feels clearly annoying,0,negative,5
+282,train,the film was truly brilliant right now,2,positive,7
+283,train,i found this story enjoyable,2,positive,5
+284,train,overall it feels absolutely bad,0,negative,5
+285,test,this movie has a simple title,1,neutral,6
+286,val,that scene was heartwarming,2,positive,4
+287,train,overall it feels pretty wonderful tonight,2,positive,6
+288,train,that scene was awful lately,0,negative,5
+289,test,i think the plot is bad tonight,0,negative,7
+290,train,the ending feels clearly excellent for me,2,positive,7
+291,train,this was a heartwarming watch lately,2,positive,6
+292,train,overall it feels quite annoying,0,negative,5
+293,test,overall it feels really fun,2,positive,5
+294,test,i think the plot is great right now,2,positive,8
+295,train,the acting is surprisingly annoying now,0,negative,6
+296,train,the opening starts after dinner,1,neutral,5
+297,train,the film was truly painful today,0,negative,6
+298,train,this story is on tv tonight,1,neutral,6
+299,train,i think the plot is wonderful for me,2,positive,8
+300,train,the film was remarkably poor tonight,0,negative,6
+301,train,that scene was terrible for me,0,negative,6
+302,train,i think the plot is dreadful now,0,negative,7
+303,train,the plot includes three scenes for us,1,neutral,7
+304,train,the ending feels truly painful,0,negative,5
+305,val,this was a great watch for me,2,positive,7
+306,train,overall it feels quite terrible now,0,negative,6
+307,test,the ending feels quite annoying lately,0,negative,6
+308,train,overall it feels very excellent,2,positive,5
+309,train,the acting is clearly heartwarming,2,positive,5
+310,train,this movie is clearly awful,0,negative,5
+311,train,the soundtrack sounds brilliant,2,positive,4
+312,train,that plot has two main actors now,1,neutral,7
+313,test,i think the plot is boring right now,0,negative,8
+314,test,the soundtrack sounds lovely right now,2,positive,6
+315,train,the acting is very great at home,2,positive,7
+316,val,the ending is available online now,1,neutral,6
+317,train,the acting is pretty brilliant,2,positive,5
+318,test,the acting is very brilliant lately,2,positive,6
+319,test,i watched the story yesterday now,1,neutral,6
+320,train,the acting is pretty great for me,2,positive,7
+321,train,i watched the movie yesterday,1,neutral,5
+322,train,they scheduled the opening for friday this week,1,neutral,8
+323,train,this was a forgettable watch right now,0,negative,7
+324,train,the acting is absolutely wonderful at home,2,positive,7
+325,train,the soundtrack sounds excellent right now,2,positive,6
+326,train,the soundtrack sounds excellent this week,2,positive,6
+327,train,i think the plot is boring at home,0,negative,8
+328,train,the film starts after dinner,1,neutral,5
+329,val,this movie is quite poor now,0,negative,6
+330,train,i think the plot is enjoyable for me,2,positive,8
+331,train,they scheduled the dialogue for friday for us,1,neutral,8
+332,val,the film was remarkably amazing for us,2,positive,7
+333,val,overall it feels quite painful for us,0,negative,7
+334,val,this story has a simple title right now,1,neutral,8
+335,train,the soundtrack starts after dinner this week,1,neutral,7
+336,train,overall it feels surprisingly painful tonight,0,negative,6
+337,train,the dialogue starts after dinner today,1,neutral,6
+338,train,that scene was dreadful at home,0,negative,6
+339,train,our teacher mentioned the movie today at home,1,neutral,8
+340,test,the ending feels really annoying,0,negative,5
+341,val,the soundtrack sounds amazing,2,positive,4
+342,train,the opening appears in the catalog now,1,neutral,7
+343,train,the film was remarkably heartwarming right now,2,positive,7
+344,test,the soundtrack sounds enjoyable at home,2,positive,6
+345,train,the opening runs for ninety minutes,1,neutral,6
+346,train,the ending feels remarkably lovely right now,2,positive,7
+347,train,the film was remarkably excellent lately,2,positive,6
+348,train,this movie is truly enjoyable today,2,positive,6
+349,val,the soundtrack is available online,1,neutral,5
+350,test,overall it feels pretty fantastic,2,positive,5
+351,val,the acting is pretty terrible this week,0,negative,7
+352,train,i think the plot is forgettable right now,0,negative,8
+353,train,that scene was messy,0,negative,4
+354,train,this was a forgettable watch now,0,negative,6
+355,val,i found this story lovely lately,2,positive,6
+356,train,this story is on tv tonight this week,1,neutral,8
+357,val,the ending feels mostly dreadful lately,0,negative,6
+358,train,that scene was amazing at home,2,positive,6
+359,train,i found this story amazing,2,positive,5
+360,train,this movie is remarkably brilliant,2,positive,5
+361,train,the ending feels clearly boring lately,0,negative,6
+362,val,we discussed the movie in class for us,1,neutral,8
+363,train,our teacher mentioned the soundtrack today today,1,neutral,7
+364,train,i think the plot is forgettable for us,0,negative,8
+365,train,the film was surprisingly amazing this week,2,positive,7
+366,val,that scene was boring tonight,0,negative,5
+367,val,that scene was amazing,2,positive,4
+368,train,the acting is mostly heartwarming right now,2,positive,7
+369,val,the acting is clearly awful,0,negative,5
+370,train,overall it feels quite wonderful,2,positive,5
+371,train,the film was really lovely for us,2,positive,7
+372,val,the acting is remarkably excellent for me,2,positive,7
+373,val,this movie is quite forgettable now,0,negative,6
+374,train,that soundtrack has two main actors at home,1,neutral,8
+375,test,that scene has two main actors now,1,neutral,7
+376,train,that story has two main actors this week,1,neutral,8
+377,train,the film was pretty dreadful today,0,negative,6
+378,test,the dialogue appears in the catalog this week,1,neutral,8
+379,train,that scene was boring,0,negative,4
+380,train,the soundtrack sounds wonderful this week,2,positive,6
+381,train,the soundtrack starts after dinner,1,neutral,5
+382,train,that scene was boring this week,0,negative,6
+383,test,the film was surprisingly brilliant for me,2,positive,7
+384,train,this ending is on tv tonight right now,1,neutral,8
+385,train,this plot has a simple title now,1,neutral,7
+386,train,overall it feels surprisingly fantastic tonight,2,positive,6
+387,test,the soundtrack sounds poor lately,0,negative,5
+388,val,our teacher mentioned the soundtrack today,1,neutral,6
+389,train,the ending includes three scenes at home,1,neutral,7
+390,test,the plot is available online today,1,neutral,6
+391,test,i think the plot is fantastic lately,2,positive,7
+392,train,this movie is truly dreadful today,0,negative,6
+393,train,that scene was fantastic today,2,positive,5
+394,train,the ending includes three scenes for us,1,neutral,7
+395,train,i found this story poor,0,negative,5
+396,val,this was a lovely watch tonight,2,positive,6
+397,train,the film was pretty terrible for us,0,negative,7
+398,val,the ending feels remarkably heartwarming tonight,2,positive,6
+399,train,the acting is truly wonderful today,2,positive,6
+400,train,i found this story great now,2,positive,6
+401,train,this was a painful watch,0,negative,5
+402,test,the opening includes three scenes for us,1,neutral,7
+403,train,the ending feels mostly fun now,2,positive,6
+404,test,the scene includes three scenes,1,neutral,5
+405,train,the ending feels truly poor right now,0,negative,7
+406,train,this movie has a simple title right now,1,neutral,8
+407,val,overall it feels absolutely fantastic lately,2,positive,6
+408,train,our teacher mentioned the ending today,1,neutral,6
+409,train,this ending has a simple title,1,neutral,6
+410,val,they scheduled the movie for friday right now,1,neutral,8
+411,train,this movie is quite great for me,2,positive,7
+412,train,this was a forgettable watch today,0,negative,6
+413,test,they scheduled the opening for friday at home,1,neutral,8
+414,train,i watched the story yesterday for us,1,neutral,7
+415,test,the soundtrack sounds painful,0,negative,4
+416,train,they scheduled the ending for friday this week,1,neutral,8
+417,test,the film includes three scenes now,1,neutral,6
+418,train,overall it feels absolutely forgettable at home,0,negative,7
+419,train,the film was absolutely awful for me,0,negative,7
+420,train,the soundtrack starts after dinner right now,1,neutral,7
+421,train,overall it feels truly forgettable,0,negative,5
+422,train,the film was mostly lovely,2,positive,5
+423,train,the movie starts after dinner,1,neutral,5
+424,train,this movie is absolutely brilliant now,2,positive,6
+425,test,the ending runs for ninety minutes right now,1,neutral,8
+426,test,the story starts after dinner,1,neutral,5
+427,test,the film appears in the catalog for us,1,neutral,8
+428,train,i think the plot is excellent this week,2,positive,8
+429,train,that story has two main actors right now,1,neutral,8
+430,test,the plot appears in the catalog this week,1,neutral,8
+431,train,this movie is quite bad for us,0,negative,7
+432,train,this movie is pretty enjoyable for me,2,positive,7
+433,train,the acting is truly great,2,positive,5
+434,train,this was a bad watch now,0,negative,6
+435,val,the film was absolutely boring right now,0,negative,7
+436,train,i think the plot is awful right now,0,negative,8
+437,val,this was a annoying watch for me,0,negative,7
+438,train,the film was quite forgettable today,0,negative,6
+439,test,we discussed the ending in class at home,1,neutral,8
+440,train,the ending feels clearly lovely,2,positive,5
+441,train,this movie is mostly annoying tonight,0,negative,6
+442,train,that story has two main actors now,1,neutral,7
+443,train,overall it feels pretty poor right now,0,negative,7
+444,val,this was a excellent watch,2,positive,5
+445,train,the acting is truly amazing at home,2,positive,7
+446,test,the acting is very fantastic tonight,2,positive,6
+447,train,this movie is really lovely right now,2,positive,7
+448,val,this soundtrack has a simple title now,1,neutral,7
+449,train,this soundtrack has a simple title this week,1,neutral,8
+450,train,our teacher mentioned the plot today,1,neutral,6
+451,val,we discussed the performance in class today,1,neutral,7
+452,train,we discussed the scene in class this week,1,neutral,8
+453,train,this scene is on tv tonight for us,1,neutral,8
+454,train,i watched the scene yesterday this week,1,neutral,7
+455,train,the movie appears in the catalog right now,1,neutral,8
+456,train,they scheduled the movie for friday,1,neutral,6
+457,train,that scene was heartwarming this week,2,positive,6
+458,train,overall it feels mostly amazing,2,positive,5
+459,val,that scene was enjoyable this week,2,positive,6
+460,train,the ending feels clearly forgettable now,0,negative,6
+461,train,the film appears in the catalog today,1,neutral,7
+462,train,i think the plot is fun tonight,2,positive,7
+463,test,that scene was poor,0,negative,4
+464,train,the ending feels surprisingly fun right now,2,positive,7
+465,train,the film was mostly bad lately,0,negative,6
+466,train,the scene appears in the catalog right now,1,neutral,8
+467,train,this scene has a simple title now,1,neutral,7
+468,train,overall it feels clearly enjoyable,2,positive,5
+469,val,overall it feels surprisingly awful today,0,negative,6
+470,train,i think the plot is fantastic now,2,positive,7
+471,train,overall it feels clearly annoying now,0,negative,6
+472,val,this movie is really boring right now,0,negative,7
+473,train,they scheduled the scene for friday right now,1,neutral,8
+474,train,the ending feels quite messy this week,0,negative,7
+475,train,the story appears in the catalog,1,neutral,6
+476,train,i think the plot is annoying for us,0,negative,8
+477,train,they scheduled the plot for friday for us,1,neutral,8
+478,train,i think the plot is heartwarming lately,2,positive,7
+479,train,the ending feels very heartwarming lately,2,positive,6
+480,train,i watched the movie yesterday right now,1,neutral,7
+481,train,the movie starts after dinner today,1,neutral,6
+482,val,overall it feels mostly brilliant now,2,positive,6
+483,train,the ending feels really messy for us,0,negative,7
+484,train,the scene runs for ninety minutes now,1,neutral,7
+485,test,overall it feels truly messy today,0,negative,6
+486,train,i watched the ending yesterday now,1,neutral,6
+487,train,the soundtrack sounds dreadful now,0,negative,5
+488,train,the scene runs for ninety minutes,1,neutral,6
+489,train,we discussed the opening in class,1,neutral,6
+490,test,the acting is really poor right now,0,negative,7
+491,train,they scheduled the ending for friday today,1,neutral,7
+492,train,the film was truly messy for me,0,negative,7
+493,val,the story appears in the catalog today,1,neutral,7
+494,train,the film was pretty brilliant at home,2,positive,7
+495,train,overall it feels clearly boring tonight,0,negative,6
+496,train,overall it feels pretty messy today,0,negative,6
+497,val,the ending feels absolutely awful,0,negative,5
+498,train,that scene was boring at home,0,negative,6
+499,train,the soundtrack sounds dreadful,0,negative,4
+500,val,the ending feels really awful lately,0,negative,6
+501,val,the acting is absolutely excellent,2,positive,5
+502,train,the film was clearly heartwarming lately,2,positive,6
+503,train,the soundtrack sounds forgettable,0,negative,4
+504,test,this was a heartwarming watch at home,2,positive,7
+505,train,the scene includes three scenes now,1,neutral,6
+506,train,i think the plot is lovely,2,positive,6
+507,val,the soundtrack sounds bad,0,negative,4
+508,test,this movie is very enjoyable,2,positive,5
+509,val,i watched the performance yesterday today,1,neutral,6
+510,val,the scene is available online at home,1,neutral,7
+511,train,the soundtrack sounds heartwarming this week,2,positive,6
+512,test,i found this story forgettable this week,0,negative,7
+513,test,that scene was wonderful lately,2,positive,5
+514,val,we discussed the dialogue in class for us,1,neutral,8
+515,val,the soundtrack sounds heartwarming,2,positive,4
+516,train,i found this story heartwarming today,2,positive,6
+517,train,i found this story amazing right now,2,positive,7
+518,test,this performance is on tv tonight,1,neutral,6
+519,train,the story runs for ninety minutes,1,neutral,6
+520,train,i found this story fun,2,positive,5
+521,train,we discussed the scene in class for us,1,neutral,8
+522,train,this was a boring watch for us,0,negative,7
+523,train,this was a brilliant watch at home,2,positive,7
+524,train,we discussed the story in class right now,1,neutral,8
+525,train,this dialogue is on tv tonight right now,1,neutral,8
+526,test,that ending has two main actors this week,1,neutral,8
+527,test,the ending feels remarkably awful tonight,0,negative,6
+528,train,the film was remarkably bad right now,0,negative,7
+529,train,the ending feels mostly annoying now,0,negative,6
+530,train,this opening has a simple title,1,neutral,6
+531,train,the opening runs for ninety minutes for us,1,neutral,8
+532,train,that soundtrack has two main actors for us,1,neutral,8
+533,train,the film was really bad today,0,negative,6
+534,test,our teacher mentioned the opening today right now,1,neutral,8
+535,train,i found this story heartwarming for us,2,positive,7
+536,train,the ending feels quite fun lately,2,positive,6
+537,train,the movie starts after dinner right now,1,neutral,7
+538,train,the acting is truly boring,0,negative,5
+539,train,the film was remarkably amazing,2,positive,5
+540,train,overall it feels surprisingly fun,2,positive,5
+541,test,that scene was painful this week,0,negative,6
+542,test,the ending feels mostly poor today,0,negative,6
+543,train,that scene was brilliant this week,2,positive,6
+544,train,the plot starts after dinner now,1,neutral,6
+545,train,overall it feels remarkably fantastic,2,positive,5
+546,train,overall it feels very heartwarming now,2,positive,6
+547,train,this performance is on tv tonight now,1,neutral,7
+548,val,the film was pretty awful for us,0,negative,7
+549,test,i found this story painful now,0,negative,6
+550,train,the soundtrack sounds lovely now,2,positive,5
+551,train,that performance has two main actors at home,1,neutral,8
+552,val,i found this story painful,0,negative,5
+553,train,this movie is really messy,0,negative,5
+554,val,overall it feels really excellent this week,2,positive,7
+555,train,that scene was painful now,0,negative,5
+556,train,that scene was poor this week,0,negative,6
+557,train,this was a dreadful watch right now,0,negative,7
+558,train,this story has a simple title,1,neutral,6
+559,train,the acting is truly messy now,0,negative,6
+560,train,the dialogue runs for ninety minutes this week,1,neutral,8
+561,train,this was a heartwarming watch for us,2,positive,7
+562,train,the acting is clearly heartwarming this week,2,positive,7
+563,train,overall it feels truly poor this week,0,negative,7
+564,train,i think the plot is excellent tonight,2,positive,7
+565,test,this movie is quite enjoyable,2,positive,5
+566,test,i think the plot is amazing now,2,positive,7
+567,train,the film was pretty great right now,2,positive,7
+568,train,the scene appears in the catalog,1,neutral,6
+569,train,i think the plot is lovely right now,2,positive,8
+570,val,our teacher mentioned the story today for us,1,neutral,8
+571,train,this ending has a simple title for us,1,neutral,8
+572,val,this opening is on tv tonight today,1,neutral,7
+573,val,the film was really boring now,0,negative,6
+574,train,that scene was terrible this week,0,negative,6
+575,train,the film was truly boring for us,0,negative,7
+576,train,the soundtrack sounds fun now,2,positive,5
+577,train,the performance starts after dinner,1,neutral,5
+578,train,i think the plot is awful today,0,negative,7
+579,train,that scene was lovely,2,positive,4
+580,train,i think the plot is messy,0,negative,6
+581,val,the story includes three scenes,1,neutral,5
+582,val,this was a terrible watch for me,0,negative,7
+583,train,the film was quite fun tonight,2,positive,6
+584,train,i think the plot is heartwarming,2,positive,6
+585,train,overall it feels absolutely brilliant for me,2,positive,7
+586,test,this performance has a simple title right now,1,neutral,8
+587,train,the soundtrack sounds wonderful for us,2,positive,6
+588,train,our teacher mentioned the movie today for us,1,neutral,8
+589,test,overall it feels absolutely great now,2,positive,6
+590,train,the acting is absolutely excellent today,2,positive,6
+591,train,this was a brilliant watch today,2,positive,6
+592,train,the movie appears in the catalog at home,1,neutral,8
+593,train,our teacher mentioned the plot today this week,1,neutral,8
+594,train,the acting is mostly painful right now,0,negative,7
+595,train,the ending feels clearly painful,0,negative,5
+596,train,that scene was messy right now,0,negative,6
+597,train,the acting is quite heartwarming this week,2,positive,7
+598,train,this performance has a simple title,1,neutral,6
+599,train,i found this story heartwarming,2,positive,5
+600,test,the soundtrack sounds excellent now,2,positive,5

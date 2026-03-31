@@ -1,0 +1,19 @@
+{
+  "num_rows": 600,
+  "max_num_tokens": 8,
+  "split_counts": {
+    "train": 420,
+    "val": 90,
+    "test": 90
+  },
+  "label_counts": {
+    "negative": 200,
+    "neutral": 200,
+    "positive": 200
+  },
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  }
+}
